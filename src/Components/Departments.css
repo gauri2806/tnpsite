@@ -1,0 +1,43 @@
+.features {
+    padding-top: 60px;
+    background-color: var(--little-grey);
+  }
+  
+  .features .heading {
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  
+  .features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #eef0ef;
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 1);
+  }
+  
+  .faico{
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .features .icon-box h3 {
+    font-family:'Segoe UI', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .features .icon-box h3 a {
+    text-decoration: none;
+    color: #37423b;
+    transition: 0.3s;
+  }
+  
+  .features .icon-box:hover i, .features .icon-box:hover h3 a {
+    color: var(--primary-blue);
+  }

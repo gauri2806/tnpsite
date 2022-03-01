@@ -1,0 +1,108 @@
+.why-us .content {
+    padding: 30px;
+    background: var(--primary-blue);
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .why-us .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  
+  .why-us .content p {
+    margin-bottom: 30px;
+  }
+  
+  .why-us .icon-boxes .icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 1);
+    border-radius: 20px;
+  }
+  
+  .why-us .icon-boxes .icon-box:hover {
+    transform: scale(105%);
+  }
+  
+  .why-us .icon-boxes .icon-box i {
+    font-size: 32px;
+    padding: 18px;
+    color: var(--primary-blue);
+    margin-bottom: 30px;
+    background: rgb(248, 248, 252);
+    border-radius: 50px;
+  }
+  
+  .why-us .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+  }
+  
+  .why-us .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: black;
+  }
+  
+  .why-us .popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: transparent;
+    z-index: 2;
+    display: none;
+  }
+  
+  .why-us .popup-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 1);
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: white;
+    z-index: 4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex: 1;
+  }
+  
+  .why-us .popup-content .popup-header .popup-close-btn {
+    position: relative;
+    float: right;
+    right: 0;
+    top: 0;
+    font-size: 35px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .why-us .popup-content .popup-name {
+    color: var(--primary-blue);
+    text-align: center;
+    font-size: 35px;
+    margin: 0 5px;
+  }
+  
+  .why-us .popup-content .popup-name .fas {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 5px;
+  }
+  
+  .why-us .popup-content .popup-body {
+    margin: 25px 10px;
+    box-sizing: border-box;
+    align-self: auto;
+  }
+  
