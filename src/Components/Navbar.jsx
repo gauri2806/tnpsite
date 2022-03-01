@@ -1,4 +1,7 @@
 import React from 'react';
+import TNPLogo from '../img/TNP LOGO.png';
+import SGGSLogo from '../img/sggs.png';
+
 import './Navbar.css';
 export default function Navbar() {
     return (<>
@@ -6,7 +9,7 @@ export default function Navbar() {
 <header id="header" className="fixed-top ">
   <div className="container d-flex align-items-center">
     <div className="logo-tag">
-      <img className="logo-img" src="\img\TNP LOGO.png"
+      <img className="logo-img" src={TNPLogo}
         alt="sggs tpo logo"/>
       <span className="divider"></span>
       <h4 className="tag me-auto"><a href="index.html">TNP CELL<br/>SGGSIE&T,NANDED</a></h4>
@@ -66,7 +69,7 @@ export default function Navbar() {
       </a>
 
       <a href="https://www.sggs.ac.in/" target="_blank">
-        <img src="/assets/img/sggs.png" alt="sggs logo"/>
+        <img src={SGGSLogo} alt="sggs logo"/>
       </a>
     </div>
 
