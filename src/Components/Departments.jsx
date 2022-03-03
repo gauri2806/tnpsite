@@ -1,7 +1,7 @@
 import React from 'react';
 import './Departments.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTv, faFlask, faBuilding, faPaintRoller, faDatabase, faLaptopCode, faList, faCogs, faAnchor, faCompactDisc } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTv, faFlask, faBuilding, faPaintRoller, faDatabase, faLaptopCode, faList, faCogs, faAnchor, faCompactDisc } from '@fortawesome/free-solid-svg-icons';
 
 export default function Departments () {
 return(<>

@@ -1,0 +1,23 @@
+.team-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.team-main-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.team-card {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-img {
+  width: 100%;
+  border-radius: 100%;
+}

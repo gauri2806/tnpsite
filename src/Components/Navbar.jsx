@@ -1,10 +1,11 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import TNPLogo from '../img/TNP LOGO.png';
 import SGGSLogo from '../img/sggs.png';
 
 import './Navbar.css';
 export default function Navbar() {
-    return (<>
+return (<>
 
 <header id="header" className="fixed-top ">
   <div className="container d-flex align-items-center">
@@ -14,10 +15,9 @@ export default function Navbar() {
       <span className="divider"></span>
       <h4 className="tag me-auto"><a href="index.html">TNP CELL<br/>SGGSIE&T,NANDED</a></h4>
     </div>
-
     <nav id="navbar" className="navbar order-last order-lg-0 ">
       <ul>
-        <li><a className="active" href="index.html">Home</a></li>
+        <li><Link to="/">Home</Link></li>
         <li><a href="#why-us">Why Recruit Us</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="trainers.html">Placements</a></li>
@@ -26,7 +26,6 @@ export default function Navbar() {
       </ul>
       <i className="bi bi-list mobile-nav-toggle"></i>
     </nav>
-
     <div className="social-wrap">
       <a href="https://www.facebook.com/Training-Placement-Cell-SGGS-Nanded-110045764789964" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook"

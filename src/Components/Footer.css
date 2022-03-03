@@ -1,0 +1,170 @@
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .container .sec {
+  margin-right: 30px;
+}
+
+footer .container .sec.aboutus {
+  width: 40%;
+}
+
+footer .container h2 {
+  position: relative;
+  color: #4971FF;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(223, 209, 23);
+  width: 150px;
+}
+
+footer .container h2:before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+}
+
+footer p {
+  color: white;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.sci li a:hover {
+  background: #4971FF;
+}
+
+.sci li a .fa {
+  color: #fff;
+  font-size: 20px;
+}
+
+.quickLinks {
+  position: relative;
+  width: 25%;
+}
+
+.quickLinks ul li {
+  list-style: none;
+}
+
+.quickLinks ul li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+  /* font-weight: 550; */
+  color: #4971FF;
+}
+
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+
+.contact .info {
+  position: relative;
+}
+
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact .info li span {
+  color: #999;
+  cursor: pointer;
+}
+
+.contact .info li a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact .info li a:hover {
+  color: #fff;
+  color: #4971FF;
+  /* font-weight: 550; */
+}
+
+.contact .info li i {
+  color: var(--primary-blue);
+}
+
+.copyright {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+@media (max-width: 991px) {
+  #Ql {
+      margin-top: 20px;
+  }
+  footer {
+      padding: 40px;
+  }
+  footer .container {
+      flex-direction: column;
+  }
+  footer .container.sec {
+      margin-right: 0;
+      margin-bottom: 40px;
+  }
+  footer .container .sec.sec.aboutus, .quickLinks, .contact {
+      width: 100%;
+  }
+  .copyright {
+      padding: 8px 40px;
+  }
+}

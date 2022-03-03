@@ -19,6 +19,7 @@ class Carousel extends React.Component {
     return (
       <div className="col-lg-6 order-1 order-lg-2//" data-aos="fade-right" data-aos-delay="100">
         <Swiper
+          rewind={true}
           modules={[Navigation, Pagination]}
           navigation
           pagination={{ clickable: true }}
