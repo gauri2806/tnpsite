@@ -1,24 +1,16 @@
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import Achievements from './Components/Achievements';
-import Counts from './Components/Counts';
-import Whyus from './Components/Why-us';
-import Departments from './Components/Departments';
-import Graph from './Components/Graph';
+import Home from './Components/Home';
+import StLogin from './Components/StLogin';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/>
-      <main id="main">
-        <Achievements/>
-        <Counts/>
-        <Whyus />
-        <Departments />
-        <Graph />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/stLogin" element={<StLogin />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,48 @@
+.alumni-background{
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/slider_4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.alumni-card {
+  background-color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.alumni-main-text {
+  color: #fff;
+}
+
+.alumni-img {
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.alumni-text {
+  padding: 30px;
+  font-size: 14px;
+  line-height: 27px;
+  align-self: center;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 3px;
+  border-radius: 0%;
+  opacity: 1;
+  background: #aaa;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+.swiper-wrapper{
+  padding-bottom: 30px;
+}
