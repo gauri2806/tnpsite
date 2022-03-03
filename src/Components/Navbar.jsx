@@ -1,13 +1,74 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import './Navbar.css';
+import { Link } from 'react-router-dom';
+import {
+  Container,
+  Row,
+  Col,
+  Dropdown
+} from 'react-bootstrap';
+import { 
+  Navbar as BSNavbar,
+  Nav,
+} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebook,
+  faTwitter,
+  faYoutube,
+  faLinkedin,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons';
+
 import TNPLogo from '../img/TNP LOGO.png';
 import SGGSLogo from '../img/sggs.png';
 
-import './Navbar.css';
 export default function Navbar() {
 return (<>
 
-<header id="header" className="fixed-top ">
+<BSNavbar class="navbar" bg="light" sticky="top">
+  <Container>
+    <BSNavbar.Brand id="navbar-brand" href="#home">
+      <img className="logo-img" src={TNPLogo} />
+      <span className="divider"></span>
+      TNP CELL <br /> SGGSIE&T, NANDED
+    </BSNavbar.Brand>
+  </Container>
+  <Container>
+    <Nav>
+      <Nav.Link id="navlink" href="#">Home</Nav.Link>
+      <Nav.Link id="navlink" href="#">Why Recruit Us</Nav.Link>
+      <Nav.Link id="navlink" href="#">Events</Nav.Link>
+      <Nav.Link id="navlink" href="#">Placements</Nav.Link>
+      <Nav.Link id="navlink" href="#">Our Team</Nav.Link>
+      <Nav.Link id="navlink" href="#">Contact Us</Nav.Link>
+    </Nav>
+    <Dropdown id="nav-socialdrop" drop="start">
+      <Dropdown.Toggle>
+        Social
+      </Dropdown.Toggle>
+        <Dropdown.Menu>
+        <Dropdown.Item href="https://www.facebook.com/Training-Placement-Cell-SGGS-Nanded-110045764789964">
+          <FontAwesomeIcon icon={faFacebook} color="#3b5998" />&nbsp;&nbsp;Facebook
+        </Dropdown.Item>
+        <Dropdown.Item href="https://twitter.com/tnpcell_sggsiet">
+          <FontAwesomeIcon icon={faTwitter} color="#1da1f2" />&nbsp;&nbsp;Twitter
+        </Dropdown.Item>
+        <Dropdown.Item href="https://www.youtube.com/channel/UCxK3BwLWib2jd8y80CbD4DA">
+          <FontAwesomeIcon icon={faYoutube} color="#f00" />&nbsp;&nbsp;Youtube
+        </Dropdown.Item>
+        <Dropdown.Item href="https://www.linkedin.com/company/placementcell-sggsiet">
+          <FontAwesomeIcon icon={faLinkedin} color="#0e76a8" />&nbsp;&nbsp;Linkedin
+        </Dropdown.Item>
+        <Dropdown.Item href="https://instagram.com/tnpcell_sggsnanded">
+          <FontAwesomeIcon icon={faInstagram} color="#8a3ab9" />&nbsp;&nbsp;Instagram
+        </Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+  </Container>
+</BSNavbar>
+
+{/* <header id="header" className="fixed-top ">
   <div className="container d-flex align-items-center">
     <div className="logo-tag">
       <img className="logo-img" src={TNPLogo}
@@ -44,7 +105,7 @@ return (<>
         </a>
         
       <a href="https://www.youtube.com/channel/UCxK3BwLWib2jd8y80CbD4DA" target="_blank">
-        {/* <!-- <i className="fab fa-youtube"></i> --> */}
+         <!-- <i className="fab fa-youtube"></i> --> 
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
           <path 
           d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/>
@@ -92,7 +153,7 @@ return (<>
     </div>
 
   </div>
-</header>
+</header> */}
 
 </>);
 
