@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 import './StLogin.css';
 
 var isEU = false;
@@ -12,10 +13,12 @@ function scrSwitchToEU () {
 class Links extends React.Component {
   render () {
     return(
-      <div className="d-flex justify-content-center">
-        <div className="btn login-link" id="login-eu" onClick={scrSwitchToCA}>Existing User</div>
-        <div className="btn login-link" id="login-ca" onClick={scrSwitchToEU}>Create Account</div>
-      </div>
+      <Container fluid="sm">
+        <div className="d-flex justify-content-center">
+          <div className="btn login-link" id="login-eu" onClick={scrSwitchToCA}>Existing User</div>
+          <div className="btn login-link" id="login-ca" onClick={scrSwitchToEU}>Create Account</div>
+        </div>
+      </Container>
     )
   }
 }
@@ -43,12 +46,9 @@ class UNewForm extends React.Component {
 export default function StLogin () {
 return(<>
 
-<div className="login-bg d-flex justify-content-md-center align-items-center vh-100">
+<div className="login-bg">
   <div className="login-main">
-    <div className="login-nav">
-      <Links />
-      {isEU ? <UExistingForm /> : <UNewForm />}
-    </div>
+    <Links />
   </div>
 </div>
 
