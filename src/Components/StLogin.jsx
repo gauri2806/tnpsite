@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import './StLogin.css';
+import Row from 'react-bootstrap';
 
 var isEU = false;
 function scrSwitchToCA () {
@@ -13,12 +14,10 @@ function scrSwitchToEU () {
 class Links extends React.Component {
   render () {
     return(
-      <Container fluid="sm">
         <div className="d-flex justify-content-center">
           <div className="btn login-link" id="login-eu" onClick={scrSwitchToCA}>Existing User</div>
           <div className="btn login-link" id="login-ca" onClick={scrSwitchToEU}>Create Account</div>
         </div>
-      </Container>
     )
   }
 }
@@ -49,6 +48,7 @@ return(<>
 <div className="login-bg">
   <div className="login-main">
     <Links />
+    <UExistingForm />
   </div>
 </div>
 
