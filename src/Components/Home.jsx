@@ -23,6 +23,7 @@ return (<>
   <Graph />
   <Alumni />
   <Team />
+  <Counts />
 </main>
 <Footer />
 
