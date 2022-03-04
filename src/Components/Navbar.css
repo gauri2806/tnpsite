@@ -1,76 +1,105 @@
-  
-  /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
-  
-  #header {
-    background: #fff;
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 15px 0;
-    box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
-  }
-  
-  #header .logo {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  #header .logo a {
-    color: var(--primary-blue);
-    text-decoration: none;
-  }
-  
-  #header .logo img {
-    max-height: 40px;
-  }
-  
-  /**
-  * Get Startet Button 
-  */
-  
+.logo-img {
+  height: 60px;
+  width: 60px;
+}
+
+.divider {
+  height: 50px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 6px;
+  align-self: center;
+}
+
+.navbar {
+  padding: 5px;
+  justify-self: flex-end;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+}
+
+#navbar-brand {
+  margin-left: 2em;
+  font-size: 16px;
+  color: #0d6efd;
+}
+
+#navlink {
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+}
+
+#navlink:hover {
+  color: #0d6efd;
+}
+
+#nav-socialdrop {
+  margin-right: 2em;
+  background-color: var(--primary-blue);
+}
+
+/*
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+
+.get-started-btn {
+  margin-left: 22px;
+  background: var(--primary-blue);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: var(--primary-blue);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
   .get-started-btn {
-    margin-left: 22px;
-    background: var(--primary-blue);
-    color: #fff;
-    border-radius: 50px;
-    padding: 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
   }
-  
-  .get-started-btn:hover {
-    background: var(--primary-blue);
-    color: #fff;
-  }
-  
-  @media (max-width: 768px) {
-    .get-started-btn {
-      margin: 0 15px 0 0;
-      padding: 6px 18px;
-    }
-  }
-  
-  /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
-  
-  /**
-  * Desktop Navigation 
-  */
-  
-  .navbar {
-    padding: 0;
-    margin-right: 4rem;
-    justify-self: flex-end;
+}
+
+ .navbar {
+padding: 0;
+margin-right: 4rem;
+justify-self: flex-end;
   }
   
   .navbar ul {
@@ -86,7 +115,7 @@
     position: relative;
     text-align: center;
     z-index: 10001;
-  }
+  } 
   
   .navbar a, .navbar a:focus {
     display: flex;
@@ -101,6 +130,7 @@
     transition: all 0.3s ease-in-out;
     text-decoration: none;
   }
+    
   
   .navbar a i, .navbar a:focus i {
     font-size: 12px;
@@ -168,7 +198,6 @@
   }
   
   .socials-dropdown ul a {
-    /* padding: 10px 20px; */
     font-size: 14px;
     text-transform: none;
     font-weight: 500;
@@ -185,7 +214,6 @@
   .socials-dropdown:hover>ul {
     opacity: 1;
     top: 0;
-    /* left: -50%; */
     visibility: visible;
   }
   
@@ -207,10 +235,6 @@
       left: -100%;
     }
   }
-  
-  /**
-  * Mobile Navigation 
-  */
   
   .mobile-nav-toggle {
     color: #37423b;
@@ -270,7 +294,6 @@
     transition: 0.3s;
     width: 100;
     height: 100%;
-    /* z-index: 1000; */
   }
   
   .navbar-mobile a, .navbar-mobile a:focus {
@@ -380,7 +403,6 @@
     justify-self: center;
     align-self: center;
     color: white;
-    /* vertical-align: top; */
 }
 
 .social-wrap a:hover {
@@ -389,4 +411,4 @@
 
 *>a {
   text-decoration: none !important;
-}
+} */

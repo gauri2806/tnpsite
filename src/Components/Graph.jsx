@@ -50,7 +50,7 @@ return(<>
 <ResponsiveContainer width="100%" height={200}>
   <BarChart
     data={data}
-    margin={{top: 20, right: 100, bottom: 20, left: 100}}
+    margin={{top: 0, right: 20, bottom: 20, left: 0}}
   >
     <XAxis dataKey="year" />
     <YAxis interval="preserveStartEnd" />
