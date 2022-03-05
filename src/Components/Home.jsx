@@ -10,20 +10,22 @@ import Alumni from './Alumni';
 import Team from './Team';
 import Footer from './Footer';
 
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+
 export default function Home () {
 return (<>
 
 <Navbar/>
 <Hero/>
 <main id="main">
-  <Achievements/>
-  <Counts/>
-  <Whyus />
-  <Departments />
-  <Graph />
-  <Alumni />
-  <Team />
-  <Counts />
+  <Zoom><Achievements/></Zoom>
+  <Fade bottom><Counts /></Fade>
+  <Fade bottom><Whyus /></Fade>
+  <Zoom><Departments /></Zoom>
+  <Fade><Graph /></Fade>
+  <Zoom><Alumni /></Zoom>
+  <Zoom><Team /></Zoom>
 </main>
 <Footer />
 

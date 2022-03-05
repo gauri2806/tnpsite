@@ -7,18 +7,23 @@
   padding: 30px;
 }
 
+.alumni-swiper {
+  display: none;
+}
+
 .alumni-card {
   background-color: #fff;
-  max-width: 80%;
+  border-radius: 5px;
   margin: 0 auto;
 }
 
 .alumni-main-text {
+  text-align: center;
+  margin-bottom: 30px;
   color: #fff;
 }
 
 .alumni-img {
-  border-radius: 100%;
   padding: 20px;
 }
 
@@ -28,6 +33,29 @@
   line-height: 27px;
   align-self: center;
   text-align: center;
+}
+
+/* MOBILE SWIPER */
+
+.alumni-swiper-mobile {
+  display: block;
+}
+
+.alumni-card {
+  max-width: 70%;
+}
+
+.alumni-img-mobile {
+  width: 100%;
+  padding: 20px;
+}
+
+/* MOBILE SWIPER END */
+
+@media only screen and (min-width: 786px) {
+  .alumni-swiper {display: block;}
+  .alumni-swiper-mobile {display: none;}
+  .alumni-card {max-width: 80%;}
 }
 
 .swiper-pagination-bullet {
