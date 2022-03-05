@@ -1,20 +1,15 @@
+.counterNum {
+  font-size: 48px;
+  display: block;
+  color: blue;
+  font-weight: 700;
+}
   
-  .counts {
-    padding: 30px 0;
-  }
-  
-  .counterNum {
-    font-size: 48px;
-    display: block;
-    color: blue;
-    font-weight: 700;
-  }
-  
-  .counts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #37423b;
-  }
+#counter {
+  background-color: #f6f7f6;
+  padding: 40px;
+}
+
+#count-center {
+  text-align: center;
+}

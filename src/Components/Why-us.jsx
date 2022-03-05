@@ -1,11 +1,118 @@
 import React from 'react';
 import './Why-us.css';
 import './scripts/popup';
+import Popup from 'reactjs-popup';
+
+import {
+  Container,
+  Row,
+  Col,
+  Stack,
+  Button,
+} from 'react-bootstrap';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faAward,
+  faLaptopCode,
+  faBalanceScale,
+} from '@fortawesome/free-solid-svg-icons';
 
 export default function Whyus() {
-    return (<>
+  return (<>
 
-<section id="why-us" class="why-us">
+    <div className="wu-container">
+      <Container fluid>
+        <Row>
+          <Col className="wu-main-details" lg={4}>
+            <h3>Why SGGSIE&T?</h3>
+            <p>
+              Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIET) is technical college in Nanded, Maharashtra, India. The institute was accorded full autonomous status in June 2004. It offers training in ten undergraduate and ten postgraduate programs in various fields of technical education, research and technology transfer. It also offers a PhD programs under its affiliating university, Swami Ramanand Teerth Marathwada University and under Quality Improvement Programme of Ministry of Education, Government of India, New Delhi.[citation needed]
+            </p>
+          </Col>
+          <Col>
+            <Container lg={8}>
+              <Row>
+                <Col xl={4}>
+                  <div className="wu-popup-card">
+                    <Stack>
+                      <FontAwesomeIcon className="card-icon" icon={faAward} size="2x" color="#0d6efd" />
+                      <h5 className="card-head">Our Standings</h5>
+                      <p className="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      <Popup trigger={<Button className="card-button">Read More</Button>} modal nested>
+                        {close => (
+                          <Container className="popup-main">
+                            <h2 className="popup-head">
+                              <FontAwesomeIcon icon={faAward} />
+                              &nbsp;Standings
+                            </h2>
+                            <hr />
+                            <p>
+                            I welcome you to Shri Guru Gobind Singhji Institute of Engineering and Technology, Vishnupuri, Nanded. This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. You are encouraged to harness your inquisitive skills with proactive learning. The purpose of education is to transform proactive learners into self-actualized learners and our experience confirms us that every self-actualized learner flourishes.  More...
+                            </p>
+                            <Button className="popup-closebtn" onClick={close}>X</Button>
+                          </Container>
+                        )}
+                      </Popup>
+                    </Stack>
+                  </div>
+                </Col>
+                <Col xl={4}>
+                  <div className="wu-popup-card">
+                    <Stack>
+                      <FontAwesomeIcon className="card-icon" icon={faLaptopCode} size="2x" color="#0d6efd" />
+                      <h5 className="card-head">Tech Skills</h5>
+                      <p className="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      <Popup trigger={<Button className="card-button">Read More</Button>} modal nested>
+                        {close => (
+                          <Container className="popup-main">
+                            <h2 className="popup-head">
+                              <FontAwesomeIcon icon={faLaptopCode} />
+                              &nbsp;Tech Skills
+                            </h2>
+                            <hr />
+                            <p>
+                            I welcome you to Shri Guru Gobind Singhji Institute of Engineering and Technology, Vishnupuri, Nanded. This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. You are encouraged to harness your inquisitive skills with proactive learning. The purpose of education is to transform proactive learners into self-actualized learners and our experience confirms us that every self-actualized learner flourishes.  More...
+                            </p>
+                            <Button className="popup-closebtn" onClick={close}>X</Button>
+                          </Container>
+                        )}
+                      </Popup>
+                    </Stack>
+                  </div>
+                </Col>
+                <Col xl={4}>
+                  <div className="wu-popup-card">
+                    <Stack>
+                      <FontAwesomeIcon className="card-icon" icon={faBalanceScale} size="2x" color="#0d6efd" />
+                      <h5 className="card-head">Overall Development</h5>
+                      <p className="card-text">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p> 
+                      <Popup trigger={<Button className="card-button">Read More</Button>} modal nested>
+                        {close => (
+                          <Container className="popup-main">
+                            <h2 className="popup-head">
+                              <FontAwesomeIcon icon={faBalanceScale} />
+                              &nbsp;Overall Development
+                            </h2>
+                            <hr />
+                            <p>
+                            I welcome you to Shri Guru Gobind Singhji Institute of Engineering and Technology, Vishnupuri, Nanded. This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. You are encouraged to harness your inquisitive skills with proactive learning. The purpose of education is to transform proactive learners into self-actualized learners and our experience confirms us that every self-actualized learner flourishes.  More...
+                            </p>
+                            <Button className="popup-closebtn" onClick={close}>X</Button>
+                          </Container>
+                        )}
+                      </Popup>
+                    </Stack>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    
+    {/* <section id="why-us" class="why-us">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-4 d-flex align-items-stretch">
@@ -84,7 +191,7 @@ export default function Whyus() {
             </div>
         </div>
     </div>
-</section>
+</section> */}
 
-    </>);
+  </>);
 }

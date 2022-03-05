@@ -4,6 +4,7 @@
 }
 
 .divider {
+  display: none;
   height: 50px;
   width: 1px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -40,6 +41,22 @@
 #nav-socialdrop {
   margin-right: 2em;
   background-color: var(--primary-blue);
+}
+
+.desktop-navmenu {
+  display: none;
+}
+
+.logo-text {
+  display: none;
+}
+
+@media only screen and (min-width: 786px) {
+  .desktop-navmenu {display: inline-flex;}
+  .mobile-navmenu {display: none;}
+  #navbar-brand {margin-left: 2em;}
+  .divider {display: block;}
+  .logo-text {display: block;}
 }
 
 /*
