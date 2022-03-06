@@ -1,4 +1,5 @@
 import React from 'react';
+import {Col } from 'react-bootstrap'
 
 //Swiper
 import { Navigation, Pagination} from 'swiper';
@@ -17,7 +18,7 @@ import './Achievements.css';
 class Carousel extends React.Component {
   render() {
     return (
-      <div className="col-lg-6 order-1 order-lg-2//" data-aos="fade-right" data-aos-delay="100">
+      <Col lg="6" >
         <Swiper
           rewind={true}
           modules={[Navigation, Pagination]}
@@ -28,7 +29,7 @@ class Carousel extends React.Component {
           <SwiperSlide><img src={Person2} class="d-block w-100" alt="Person 1" /></SwiperSlide>
           <SwiperSlide><img src={Person3} class="d-block w-100" alt="Person 1" /></SwiperSlide>
         </Swiper>
-      </div>
+    </Col>
     );
   }
 }
@@ -40,7 +41,8 @@ export default function Achievements() {
         <div className="container" data-aos="fade-up">
 
           <div className="row">
-            <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <Col lg="6" >
+            {/* <Col className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"> */}
               <h3>ACHIEVEMENTS</h3>
               <p className="fst-italic">
                 Established in 1981, Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIET), Nanded, is one of the promising leader institutions in technical education, research and technology transfer. Since its inception, the institute is dedicated to students’ centric learning and believes in pursuing academic excellence. It is having neat, clean and green campus spread over land of 46 acres. It receives 100% grant-in aid from Government of Maharashtra.
@@ -54,7 +56,7 @@ export default function Achievements() {
                 Students at SGGS bagged AIR-1 three times and several students in top 100 in GATE examination every year. Also students design and build new vehicle every year by participating in Baja and Supra competitions. Students get exposure to multidisciplinary and innovative project in institute Innovation laboratory, which is kept open 24 X 7.
               </p>
 
-            </div>
+            </Col>
             <Carousel />
           </div>
         </div>
