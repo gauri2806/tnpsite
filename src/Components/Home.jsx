@@ -9,6 +9,7 @@ import Graph from './Graph';
 import Alumni from './Alumni';
 import Team from './Team';
 import Footer from './Footer';
+import Contact from './Contact';
 
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
@@ -24,8 +25,9 @@ return (<>
   <Fade bottom><Whyus /></Fade>
   <Zoom><Departments /></Zoom>
   <Fade><Graph /></Fade>
-  <Zoom><Alumni /></Zoom>
-  <Zoom><Team /></Zoom>
+  <Alumni />
+  <Team />
+  <Contact />
 </main>
 <Footer />
 

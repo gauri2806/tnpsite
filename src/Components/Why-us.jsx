@@ -1,6 +1,5 @@
 import React from 'react';
 import './Why-us.css';
-import './scripts/popup';
 import Popup from 'reactjs-popup';
 
 import {
