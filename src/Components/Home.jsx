@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from './Social';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Achievements from './Achievements';
@@ -17,6 +18,7 @@ import Fade from 'react-reveal/Fade';
 export default function Home () {
 return (<>
 
+<Social />
 <Navbar/>
 <Hero/>
 <main id="main">
@@ -27,7 +29,7 @@ return (<>
   <Fade><Graph /></Fade>
   <Alumni />
   <Team />
-  <Contact />
+  <Fade><Contact /></Fade>
 </main>
 <Footer />
 

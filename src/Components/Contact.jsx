@@ -25,6 +25,14 @@ export default function Contact () {
           </Container>
         </Container>
       </Container>
+      <Container className="contact-main-details-mobile">
+      <h3 className="head-name open-sans">Dr. Ravindra Joshi</h3>
+      <h6 className="head-details open-sans">Dean (Industry Liaison), In-charge Training & Placement Officer</h6>
+      <Container className="head-info-mobile">
+        <p className="head-text">Contact No: <a href="tel:2462269182">+91-2462-269182</a> (Office)</p>
+        <p className="head-text">Email: <a href="mailto:tpo@sggs.ac.in">tpo@sggs.ac.in</a>,<br/> <a href="mailto:rnjoshi@sggs.ac.in">rnjoshi@sggs.ac.in</a></p>
+      </Container>
+      </Container>
       <center>***OTHER CONTACTS***</center>
     </Container>
 

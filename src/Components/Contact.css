@@ -20,11 +20,13 @@
 }
 
 .contact-main-img {
-  width: 300px;
+  margin: 0 auto;
+  width: 80%;
   border-radius: 100%;
 }
 
 .contact-main-details {
+  display: none;
   text-align: center;
   align-items: center;
 }
@@ -41,7 +43,18 @@
   margin-top: 30px;
 }
 
+.head-info-mobile {
+  margin-top: 30px;
+  text-align: center;
+}
+
 .head-text {
   font-size: 25px;
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-main-img{width: 300px;}
+  .contact-main-details{display: block;}
+  .contact-main-details-mobile{display: none;}
 }

@@ -1,0 +1,21 @@
+.social-banner{
+  background-color: var(--primary-blue);
+  color: #fff;
+}
+
+.social-list{
+  right: 0;
+}
+
+.social-list a{
+  color: #fff;
+}
+
+.social-list a:hover{
+  color: #000;
+}
+
+.social-btn {
+  margin: 10px;
+  font-size: 25px;
+}
