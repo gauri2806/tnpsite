@@ -3,8 +3,7 @@ import './Navbar.css';
 import {
   Container,
   Row,
-  Col,
-  Dropdown
+  Col
 } from 'react-bootstrap';
 import {
   Navbar as BSNavbar,
@@ -36,7 +35,7 @@ export default function Navbar() {
         </BSNavbar.Brand>
       </Container>
       <Container>
-        <Nav className="desktop-navmenu">
+        <Nav className="desktop-navmenu ms-auto">
           <Nav.Link id="navlink" href="#">Home</Nav.Link>
           <Nav.Link id="navlink">Why Us</Nav.Link>
           <Nav.Link id="navlink" href="#">Events</Nav.Link>
@@ -44,29 +43,7 @@ export default function Navbar() {
           <Nav.Link id="navlink" href="#">Our Team</Nav.Link>
           <Nav.Link id="navlink" href="#">Contact Us</Nav.Link>
         </Nav>
-        <Dropdown id="nav-socialdrop" drop="start">
-          <Dropdown.Toggle>
-            Social
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item href="https://www.facebook.com/Training-Placement-Cell-SGGS-Nanded-110045764789964">
-              <FontAwesomeIcon icon={faFacebook} color="#3b5998" />&nbsp;&nbsp;Facebook
-            </Dropdown.Item>
-            <Dropdown.Item href="https://twitter.com/tnpcell_sggsiet">
-              <FontAwesomeIcon icon={faTwitter} color="#1da1f2" />&nbsp;&nbsp;Twitter
-            </Dropdown.Item>
-            <Dropdown.Item href="https://www.youtube.com/channel/UCxK3BwLWib2jd8y80CbD4DA">
-              <FontAwesomeIcon icon={faYoutube} color="#f00" />&nbsp;&nbsp;Youtube
-            </Dropdown.Item>
-            <Dropdown.Item href="https://www.linkedin.com/company/placementcell-sggsiet">
-              <FontAwesomeIcon icon={faLinkedin} color="#0e76a8" />&nbsp;&nbsp;Linkedin
-            </Dropdown.Item>
-            <Dropdown.Item href="https://instagram.com/tnpcell_sggsnanded">
-              <FontAwesomeIcon icon={faInstagram} color="#8a3ab9" />&nbsp;&nbsp;Instagram
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-        <NavDropdown title={<FontAwesomeIcon icon={faBars} />} className="mobile-navmenu" drop="start">
+        <NavDropdown title={<FontAwesomeIcon icon={faBars} />} className="mobile-navmenu ms-auto" drop="start">
           <NavDropdown.Item href="/">
             Home  
           </NavDropdown.Item>

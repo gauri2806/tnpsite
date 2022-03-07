@@ -1,0 +1,60 @@
+.contacts-container {
+  padding: 20px;
+  background-color: var(--little-grey);
+  /* background:  url("../img/sankalp sggs.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; */
+}
+
+.contact-head {
+  margin-left: 50px;
+  font-family: "Open Sans";
+}
+
+.contact-main {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.contact-main-img {
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 100%;
+}
+
+.contact-main-details {
+  display: none;
+  text-align: center;
+  align-items: center;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.head-name {
+  color: var(--primary-blue);
+}
+
+.head-info {
+  margin-top: 30px;
+}
+
+.head-info-mobile {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.head-text {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-main-img{width: 300px;}
+  .contact-main-details{display: block;}
+  .contact-main-details-mobile{display: none;}
+}

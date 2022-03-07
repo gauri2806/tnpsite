@@ -12,6 +12,7 @@
 .wu-popup-card {
   min-height: 100%;
   padding: 10px;
+  margin: 2px;
   border-radius: 10px;
   box-shadow: 0px 2px 16px #0004;
 }
@@ -40,7 +41,7 @@
 
 .popup-main {
   position: relative;
-  max-width: 60%;
+  max-width: 300px;
   padding: 30px;
   border-radius: 40px;
   box-shadow: 0px 4px 32px #0004;
@@ -58,6 +59,11 @@
   top: 10px;
   right: 10px;
   border-radius: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .popup-main{max-width: 60%;}
+  .wu-popup-card{margin-top: 0;}
 }
 
 /* .why-us .content {
