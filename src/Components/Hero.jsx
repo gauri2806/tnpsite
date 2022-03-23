@@ -8,9 +8,9 @@ export default function Hero(){
     <Container id="hero" fluid>
       <Container className="hero-list" md={2}>
       <Stack gap={2} className="main">
-       <Button className='cus-btn'><Link className="btn-inside" to="/stlogin">Student</Link> </Button>
-        <Button className='cus-btn'>Recruiter</Button>
-        <Button className='cus-btn'>Admin</Button>
+        {/* <Button className='cus-btn'><Link className="btn-inside" to="/stlogin">Student</Link> </Button> */}
+        {/* <Button className='cus-btn'>Recruiter</Button> */}
+        {/* <Button className='cus-btn'>Admin</Button> */}
         <Button className='cus-btn'>Current Drives</Button>
         <Button className='cus-btn'>Internship</Button>
       </Stack>

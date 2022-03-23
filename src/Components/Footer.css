@@ -12,6 +12,10 @@
   padding: 20px;
 }
 
+.f-about {
+  color: #fff;
+}
+
 .footer h2 {
   font-family: "Open Sans";
   color: var(--primary-blue);
@@ -68,6 +72,13 @@
   padding: 8px 100px;
   text-align: center;
   color: #999;
+}
+
+@media only screen and (max-width: 768px) {
+  .f-row {padding: 5px;}
+  .copyright {padding: 8px 2px;}
+  .footer h2 {text-align: center;}
+  .footer p {text-align: center;}
 }
 
 /* footer {

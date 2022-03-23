@@ -1,0 +1,47 @@
+.dir {
+  padding: 30px;
+}
+
+.dir h3 {
+  font-family: var(--rlwy);
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.dir-card {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.dir-card img {
+  margin: 10px;
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+
+.dir-card h5 {
+  font-family: var(--muli);
+  font-weight: 800;
+  margin: 0;
+}
+
+.dir-subtext {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+}
+
+.dir-card hr {
+  width: 60%;
+  padding: 0;
+  margin: 10px;
+}
+
+.dir-details {
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+}

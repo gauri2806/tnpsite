@@ -1,18 +1,29 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Raleway:wght@700&display=swap);
+}
+
 .wu-container {
-  padding: 40px;
+  padding: 10px;
 }
 
 .wu-main-details {
+  text-align: center;
   padding: 30px;
   background-color: var(--primary-blue);
   border-radius: 10px;
   color: #fff;
 }
 
+.wu-main-details h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
 .wu-popup-card {
-  min-height: 100%;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0px 2px 16px #0004;
 }
@@ -42,11 +53,19 @@
 .popup-main {
   position: relative;
   max-width: 300px;
+  max-height: 620px;
   padding: 30px;
   margin-top: 10px;
   border-radius: 40px;
   box-shadow: 0px 4px 32px #0004;
   background-color: #fff;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.popup-main::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 .popup-head {
@@ -63,8 +82,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .popup-main{max-width: 60%;}
-  .wu-popup-card{margin-top: 0;}
+  .popup-main {max-width: 60%; max-height: 100%; overflow: auto;}
+  .wu-container {padding: 40px;}
+}
+
+@media only screen and (max-height: 568px) {
+  .popup-main{max-height: 400px;}
 }
 
 /* .why-us .content {

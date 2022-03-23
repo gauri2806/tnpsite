@@ -2,44 +2,36 @@ import React from 'react';
 import { BarChart, XAxis, YAxis, Tooltip, Bar, ResponsiveContainer } from 'recharts';
 const data = [
   {
-    year: 2012,
-    "No. of students": 300,
+    year: "14/15",
+    "No. of students": 355,
   },
   {
-    year: 2013,
-    "No. of students": 220,
+    year: "15/16",
+    "No. of students": 389,
   },
   {
-    year: 2014,
-    "No. of students": 320,
+    year: "16/17",
+    "No. of students": 275,
   },
   {
-    year: 2015,
-    "No. of students": 330,
+    year: "17/18",
+    "No. of students": 225,
   },
   {
-    year: 2016,
-    "No. of students": 120,
+    year: "18/19",
+    "No. of students": 252,
   },
   {
-    year: 2017,
-    "No. of students": 350,
+    year: "19/20",
+    "No. of students": 277,
   },
   {
-    year: 2018,
-    "No. of students": 170,
+    year: "20/21",
+    "No. of students": 180,
   },
   {
-    year: 2019,
-    "No. of students": 440,
-  },
-  {
-    year: 2020,
-    "No. of students": 380,
-  },
-  {
-    year: 2021,
-    "No. of students": 390,
+    year: "21/22",
+    "No. of students": 224,
   },
 ];
 
@@ -53,7 +45,7 @@ return(<>
     margin={{top: 0, right: 20, bottom: 20, left: 0}}
   >
     <XAxis dataKey="year" />
-    <YAxis interval="preserveStartEnd" />
+    <YAxis type="number" domain={[0, 400]} />
     <Tooltip />
     <Bar dataKey="No. of students" fill="#8884d8" />
   </BarChart>

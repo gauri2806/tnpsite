@@ -23,7 +23,7 @@
 }
 
 #navbar-brand {
-  margin-left: 2em;
+  /* margin-left: 2em; */
   font-size: 16px;
   color: #0d6efd;
 }
@@ -49,6 +49,10 @@
 
 .logo-text {
   display: none;
+}
+
+.mobile-nav-icon {
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 786px) {
