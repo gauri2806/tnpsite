@@ -1,4 +1,76 @@
-footer {
+.footer {
+  background-color: #000;
+  padding: 30px;
+}
+
+.f-row {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.f-col {
+  padding: 20px;
+}
+
+.footer h2 {
+  font-family: "Open Sans";
+  color: var(--primary-blue);
+  padding-bottom: 10px;
+  border-bottom: 1px solid yellow;
+}
+
+.about-social a {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.f-ql ul {
+  list-style-type: none;
+}
+
+.f-ql ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.f-ql ul a:hover {
+  color: var(--primary-blue);
+}
+
+.ci-cell {
+  display: flex;
+}
+
+.ci-icon {
+  padding: 20px;
+}
+
+.ci-cell-div {
+  display: flex;
+}
+
+.ci-cell-div a {
+  margin: auto;
+}
+
+.f-ci a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.f-ci a:hover {
+  color: var(--primary-blue);
+}
+
+.copyright {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+/* footer {
   position: relative;
   width: 100%;
   height: auto;
@@ -70,6 +142,7 @@ footer p {
 }
 
 .sci li a:hover {
+  color: #fff;
   background: #4971FF;
 }
 
@@ -95,7 +168,7 @@ footer p {
 }
 
 .quickLinks ul li a:hover {
-  /* font-weight: 550; */
+  /* font-weight: 550;
   color: #4971FF;
 }
 
@@ -113,15 +186,23 @@ footer p {
   margin-bottom: 16px;
 }
 
-.contact .info li span:nth-child(1) {
+.contact-icons-bg:nth-child(1) {
   color: #fff;
   font-size: 20px;
   margin-right: 10px;
 }
 
-.contact .info li span {
-  color: #999;
-  cursor: pointer;
+.contact-icons-bg {
+  background-color: #ddd;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-icons {
+  font-size: 30px;
+  color: var(--primary-blue);
+  margin: 20px;
 }
 
 .contact .info li a {
@@ -132,7 +213,7 @@ footer p {
 .contact .info li a:hover {
   color: #fff;
   color: #4971FF;
-  /* font-weight: 550; */
+  /* font-weight: 550; 
 }
 
 .contact .info li i {
@@ -147,6 +228,10 @@ footer p {
   color: #999;
 }
 
+ol, ul {
+  padding-left: 0;
+}
+
 @media (max-width: 991px) {
   #Ql {
       margin-top: 20px;
@@ -157,7 +242,7 @@ footer p {
   footer .container {
       flex-direction: column;
   }
-  footer .container.sec {
+  footer .container .sec {
       margin-right: 0;
       margin-bottom: 40px;
   }
@@ -167,4 +252,4 @@ footer p {
   .copyright {
       padding: 8px 40px;
   }
-}
+} */

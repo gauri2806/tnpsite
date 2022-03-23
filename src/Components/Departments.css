@@ -11,6 +11,7 @@
   .features .icon-box {
     display: flex;
     align-items: center;
+    margin: 5px;
     padding: 20px;
     transition: 0.3s;
     border: 1px solid #eef0ef;

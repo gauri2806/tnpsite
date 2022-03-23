@@ -2,7 +2,7 @@ import React from 'react';
 import {Col } from 'react-bootstrap'
 
 //Swiper
-import { Navigation, Pagination} from 'swiper';
+import { Autoplay, Navigation, Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -20,8 +20,12 @@ class Carousel extends React.Component {
     return (
       <Col lg="6" >
         <Swiper
-          rewind={true}
-          modules={[Navigation, Pagination]}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Navigation, Pagination, Autoplay]}
           navigation
           pagination={{ clickable: true }}
         >

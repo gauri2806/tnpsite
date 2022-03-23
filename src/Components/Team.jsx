@@ -2,7 +2,7 @@ import React, { useState, useLayoutEffect } from 'react';
 import './Team.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Pagination } from 'swiper';
+import { Autoplay, Pagination } from 'swiper';
 import Person1 from '../img/person_1_sm.jpg';
 import Person2 from '../img/person_2_sm.jpg';
 import Person3 from '../img/person_3_sm.jpg';
@@ -47,12 +47,16 @@ export default function Team() {
       <div>
         <Swiper
           loop={true}
+          autoplay={{
+            delay: 1250,
+            disableOnInteraction: false,
+          }}
           slidesPerView={width < 768 ? 1 : 5}
           spaceBetween={50}
           pagination={{
             clickable: true,
           }}
-          modules={width < 768 ? null : [Pagination]}
+          modules={[Pagination, Autoplay]}
         >
           <SwiperSlide>
             <TeamCard

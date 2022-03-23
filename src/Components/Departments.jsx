@@ -27,7 +27,7 @@ export default function Departments() {
                 <FontAwesomeIcon className="faico" icon={faTv} />
                 <h3>
                   <a href="https://www.sggs.ac.in/home/page/department-of-computer-science-and-engineering">
-                    ComputerScience and Engineering
+                    Computer Science and Engineering
                   </a>
                 </h3>
               </div>
