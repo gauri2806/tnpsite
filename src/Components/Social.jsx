@@ -24,6 +24,7 @@ export default function Social () {
           <a href="https://www.youtube.com/channel/UCxK3BwLWib2jd8y80CbD4DA"><FontAwesomeIcon className="social-btn" icon={faYoutube} /></a>
           <a href="https://www.linkedin.com/company/placementcell-sggsiet"><FontAwesomeIcon className="social-btn" icon={faLinkedin} /></a>
           <a href="https://instagram.com/tnpcell_sggsnanded"><FontAwesomeIcon className="social-btn" icon={faInstagram} /></a>
+          <div className="ms-auto right-spacing"></div>
         </Stack>
       </Container>
     </Container>

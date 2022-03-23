@@ -6,7 +6,9 @@ import Achievements from './Achievements';
 import Counts from './Counts';
 import Whyus from './Why-us';
 import Departments from './Departments';
+import Director from './Director';
 import Graph from './Graph';
+import Charts from './Charts';
 import Alumni from './Alumni';
 import Team from './Team';
 import Footer from './Footer';
@@ -26,7 +28,9 @@ return (<>
   <Fade bottom><Counts /></Fade>
   <Fade bottom><Whyus /></Fade>
   <Zoom><Departments /></Zoom>
+  <Zoom><Director /></Zoom>
   <Fade><Graph /></Fade>
+  {/* <Charts /> */}
   <Alumni />
   <Team />
   <Fade><Contact /></Fade>

@@ -43,7 +43,7 @@ export default function Navbar() {
           <Nav.Link id="navlink" href="#">Our Team</Nav.Link>
           <Nav.Link id="navlink" href="#">Contact Us</Nav.Link>
         </Nav>
-        <NavDropdown title={<FontAwesomeIcon icon={faBars} />} className="mobile-navmenu ms-auto" drop="start">
+        <NavDropdown title={<FontAwesomeIcon className="mobile-nav-icon" icon={faBars} />} className="mobile-navmenu ms-auto" drop="start">
           <NavDropdown.Item href="/">
             Home  
           </NavDropdown.Item>

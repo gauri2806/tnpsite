@@ -28,10 +28,13 @@
 }
 
 .alumni-text {
+  display: flex;
   padding: 30px;
-  font-size: 14px;
-  line-height: 27px;
-  align-self: center;
+  height: 100%;
+}
+
+.alumni-text p {
+  margin: auto;
   text-align: center;
 }
 
@@ -42,12 +45,21 @@
 }
 
 .alumni-card {
-  max-width: 70%;
+  max-width: 90%;
+  text-align: center;
 }
 
 .alumni-img-mobile {
   width: 100%;
   padding: 20px;
+}
+
+.alumni-swiper-mobile .swiper-button-prev {
+  left: 15px;
+}
+
+.alumni-swiper-mobile .swiper-button-next {
+  right: 15px;
 }
 
 /* MOBILE SWIPER END */
@@ -56,21 +68,4 @@
   .alumni-swiper {display: block;}
   .alumni-swiper-mobile {display: none;}
   .alumni-card {max-width: 80%;}
-}
-
-.swiper-pagination-bullet {
-  width: 40px;
-  height: 3px;
-  border-radius: 0%;
-  opacity: 1;
-  background: #aaa;
-}
-
-.swiper-pagination-bullet-active {
-  color: #fff;
-  background: #007aff;
-}
-
-.swiper-wrapper{
-  padding-bottom: 30px;
 }

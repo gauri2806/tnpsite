@@ -43,7 +43,7 @@ return(<>
             </Col>
             <Col md={8}>
             <div className="alumni-text">
-            This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. 
+              <p>This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. </p>
             </div>
             </Col>
           </Row>

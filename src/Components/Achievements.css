@@ -1,24 +1,30 @@
-  .about .content h3 {
-    font-weight: 600;
-    font-size: 26px;
-    color: var(--primary-blue);
-  }
-  
-  .about .content ul {
+.ach-text h3 {
+  color: var(--primary-blue);
+  font-family: "Roboto";
+}
+
+.italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.ach-text {
+  font-size: 14px;
+}
+
+  .ach-text ul {
     list-style: none;
     padding: 0;
   }
   
-  .about .content ul li {
-    padding-bottom: 10px;
-  }
-  
-  .about .content ul i {
-    font-size: 20px;
-    padding-right: 4px;
+  .ach-text ul li .check-icon {
     color: var(--primary-blue);
   }
-  
+
+  .ach-text ul li {
+    padding-bottom: 10px;
+  }
+/*   
   .about .content .learn-more-btn {
     background: var(--primary-blue);
     color: #fff;
@@ -40,4 +46,4 @@
       margin: 0 48px 0 0;
       padding: 6px 18px;
     }
-  }
+  } */

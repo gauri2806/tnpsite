@@ -15,25 +15,25 @@ return (<>
     <Row>
         <Col>
             <Stack id="count-center">
-                <CountUp className="counterNum" end={2000} duration={1.5} useEasing={true} />
+                <CountUp className="counterNum" end={400} duration={3} useEasing={true} />
                 Successful Placements
             </Stack>
         </Col>
         <Col>
             <Stack id="count-center">
-                <CountUp className="counterNum" end={50} duration={1.5} useEasing={true} />
+                <CountUp className="counterNum" end={28} duration={3} useEasing={true} />
                 Companies
             </Stack>
         </Col>
         <Col>
             <Stack id="count-center">
-                <CountUp className="counterNum" end={95} duration={1.5} useEasing={true} />
+                <CountUp className="counterNum" end={80} duration={3} useEasing={true} />
                 Placement Percentage
             </Stack>
         </Col>
         <Col>
             <Stack id="count-center">
-                <CountUp className="counterNum" end={99} duration={1.5} useEasing={true} />
+                <CountUp className="counterNum" end={96} duration={3} useEasing={true} />
                 Satisfaction
             </Stack>
         </Col>
