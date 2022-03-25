@@ -3,7 +3,25 @@
     background-color: var(--little-grey);
   }
   
+.image h3 {
+  margin-left: 50px;
+}
+
 .photo {
     width: 100%;
     margin: 10px;
+}
+
+.rec-scroll {
+  /* background-color: #ccccff; */
+  padding: 20px;
+  width: 99%;
+  height: 300px;
+  border: 3px solid var(--primary-blue);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .rec-scroll {height: 400px;}
 }
