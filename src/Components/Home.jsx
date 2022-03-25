@@ -9,6 +9,7 @@ import Departments from './Departments';
 import Director from './Director';
 import Graph from './Graph';
 import Charts from './Charts';
+import Recruiters from './Recruiters';
 import Alumni from './Alumni';
 import Team from './Team';
 import Footer from './Footer';
@@ -31,6 +32,7 @@ return (<>
   <Zoom><Director /></Zoom>
   <Fade><Graph /></Fade>
   {/* <Charts /> */}
+  <Fade bottom><Recruiters /></Fade>
   <Alumni />
   <Team />
   <Fade><Contact /></Fade>

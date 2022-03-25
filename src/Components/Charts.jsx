@@ -12,7 +12,6 @@ import {
   LabelList,
   Legend
 } from 'recharts';
-import { Tooltip } from 'bootstrap';
 
 const deptcolors = ["#ee7b0c", "#dc2e27", "#0db4df", "#dd74a1", "#44d269", "#6ab6da", "#00ffff", "#0000ff", "#32a195", "#a764e6"];
 
