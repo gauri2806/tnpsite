@@ -20,7 +20,7 @@ import {
 export default function Whyus() {
   return (<>
 
-    <div className="wu-container">
+    <div className="wu-container" id="whyus">
       <Container fluid>
         <Row>
           <Col className="wu-main-details" lg={4}>

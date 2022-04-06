@@ -1,0 +1,16 @@
+.p-footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 40px;
+}
+
+.p-footer img {
+  width: 100px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ff0;
+}
+
+.p-social {
+  margin: 20px;
+}

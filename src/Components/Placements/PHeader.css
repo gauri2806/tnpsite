@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--little-grey);
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.head-text {
+  width: 100%;
+}
+
+.head-text h4 {
+  margin-right: 100 px;
+  font-family: var(--rlwy);
+  font-size: 25px;
+  color: var(--primary-blue);
+}
+
+.back {
+  background-color: var(--primary-blue);
+  padding-left: 50px;
+}
+
+.backlink {
+  color: #fff;
+}
+
+.backlink:hover {
+  color: #ddd;
+}
+
+@media only screen and (min-width: 768px) {
+  .header { 
+    display: flex;
+    padding-left: 50px;
+    text-align: left;
+  }
+  .head-text h4 { font-size: 50px; }
+}
