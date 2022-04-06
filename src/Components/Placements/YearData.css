@@ -1,0 +1,37 @@
+.collapsible {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.collapsible button {
+  background-color: var(--primary-blue);
+  border: unset;
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  padding: 15px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.collapsible button:hover {
+  /* background-color: #000; */
+  background-image: linear-gradient(to bottom, #00c, var(--primary-blue));
+}
+
+.content {
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.content .parent {
+  border: 5px solid var(--primary-blue);
+  border-top: unset;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.content .download {
+  text-align: center;
+  font-size: 20px;
+}

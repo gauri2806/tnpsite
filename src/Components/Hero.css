@@ -3,7 +3,20 @@
   height: 60vh;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/bg1.jpg") center center;
   background-size: cover;
+  overflow: hidden;
   position: relative;
+}
+
+.inst-name {
+  height: 100%;
+  display: flex;
+}
+
+.inst-name p {
+  margin: auto;
+  font-family: var(--rlwy);
+  color: #fff;
+  font-size: 50px;
 }
 
 .main{
@@ -39,6 +52,15 @@
     #hero {
       height: 90vh;
     }
+    .inst-name p { font-size: 70px; }
+  }
+
+  @media only screen and (max-width: 512px) {
+    .inst-name p { font-size: 40px; }
+  }
+
+  @media only screen and (max-width: 352px) {
+    .inst-name p { font-size: 30px; }
   }
 
   /* #hero .container {

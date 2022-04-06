@@ -140,7 +140,6 @@ export default function Recruiters() {
           <Col lg="2" md="3">
             <Image className="photo" src={mahindra} />
           </Col>
-
           <Col lg="2" md="3">
             <Image className="photo" src={neml} />
           </Col>
@@ -201,17 +200,16 @@ export default function Recruiters() {
           <Col lg="2" md="3">
             <Image className="photo" src={thermax} />
           </Col>
-
           <Col lg="2" md="3">
-            <Image className="photo" src={toyoeg} />
-
             <Image className="photo" src={tpllogo} />
           </Col>
-
+          <Col lg="2" md="3">
+            <Image className="photo" src={toyoeg} />
+          </Col>
           <Col lg="2" md="3">
             <Image className="photo" src={rcf} />
           </Col>
-          <Col lg="1" md="3">
+          <Col lg="2" md="3">
             <Image className="photo" src={nivida} />
           </Col>
 

@@ -8,7 +8,7 @@ import Whyus from './Why-us';
 import Departments from './Departments';
 import Director from './Director';
 import Graph from './Graph';
-import Charts from './Charts';
+// import Charts from './Charts';
 import Recruiters from './Recruiters';
 import Alumni from './Alumni';
 import Team from './Team';

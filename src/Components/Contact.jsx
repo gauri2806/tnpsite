@@ -17,7 +17,7 @@ import {
 export default function Contact () {
   return (<>
 
-    <Container className="contact" fluid>
+    <Container className="contact" id="contactus" fluid>
       <h2>Contact Us</h2>
       <Container className="contact-main">
         <Row>

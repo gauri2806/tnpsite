@@ -42,7 +42,7 @@ export default function Team() {
   const [width, height] = useWindowSize();
 
   return (<>
-    <div className="team-background">
+    <div className="team-background" id="ourteam">
       <h2 className="text-center team-main-text">OUR TEAM</h2>
       <div>
         <Swiper

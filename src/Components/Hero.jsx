@@ -6,13 +6,16 @@ import{Container, Stack,Button,Col} from "react-bootstrap";
 export default function Hero(){
     return (<>
     <Container id="hero" fluid>
+      <div className="inst-name">
+        <p>Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded</p>
+      </div>
       <Container className="hero-list" md={2}>
       <Stack gap={2} className="main">
         {/* <Button className='cus-btn'><Link className="btn-inside" to="/stlogin">Student</Link> </Button> */}
         {/* <Button className='cus-btn'>Recruiter</Button> */}
         {/* <Button className='cus-btn'>Admin</Button> */}
-        <Button className='cus-btn'>Current Drives</Button>
-        <Button className='cus-btn'>Internship</Button>
+        {/* <Button className='cus-btn'>Current Drives</Button> */}
+        {/* <Button className='cus-btn'>Internship</Button> */}
       </Stack>
       </Container >
         </Container>

@@ -43,6 +43,10 @@
   background-color: var(--primary-blue);
 }
 
+.mobile-navmenu {
+  color: var(--primary-blue)
+}
+
 .desktop-navmenu {
   display: none;
 }
