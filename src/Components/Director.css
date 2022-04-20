@@ -15,6 +15,10 @@
   border: 1px solid #ddd;
 }
 
+.dir-card .scrollable {
+  height: 60vh;
+}
+
 .dir-card img {
   margin: 10px;
   object-fit: cover;
@@ -45,3 +49,7 @@
   padding: 0px 20px 0px 20px;
   font-size: 15px;
 }
+
+/* .dir-details .closing {
+  text-align: left;
+} */

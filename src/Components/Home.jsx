@@ -10,7 +10,7 @@ import Director from './Director';
 import Graph from './Graph';
 // import Charts from './Charts';
 import Recruiters from './Recruiters';
-import Alumni from './Alumni';
+// import Alumni from './Alumni';
 import Team from './Team';
 import Footer from './Footer';
 import Contact from './Contact';
@@ -33,7 +33,7 @@ return (<>
   <Fade><Graph /></Fade>
   {/* <Charts /> */}
   <Fade bottom><Recruiters /></Fade>
-  <Alumni />
+  {/* <Alumni /> */}
   <Team />
   <Fade><Contact /></Fade>
 </main>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import Person1 from '../img/trainers/trainer-1.jpg';
+import RNJoshiP from '../img/rnjoshi-sir.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
@@ -22,7 +22,7 @@ export default function Contact () {
       <Container className="contact-main">
         <Row>
           <Col lg={4}>
-            <img src={Person1} />
+            <img src={RNJoshiP} />
           </Col>
           <Col className="cm-data" lg={8}>
             <div className="cm-inner">
