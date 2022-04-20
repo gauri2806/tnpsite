@@ -17,9 +17,24 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import Person1 from '../img/person_1_sm.jpg';
-import Person2 from '../img/person_2_sm.jpg';
-import Person3 from '../img/person_3_sm.jpg';
+import Poster1 from '../img/PlacementPoster/poster1.png';
+import Poster2 from '../img/PlacementPoster/poster2.png';
+import Poster3 from '../img/PlacementPoster/poster3.png';
+import Poster4 from '../img/PlacementPoster/poster4.png';
+import Poster5 from '../img/PlacementPoster/poster5.png';
+import Poster6 from '../img/PlacementPoster/poster6.png';
+import Poster7 from '../img/PlacementPoster/poster7.png';
+import Poster8 from '../img/PlacementPoster/poster8.png';
+import Poster9 from '../img/PlacementPoster/poster9.png';
+import Poster10 from '../img/PlacementPoster/poster10.png';
+import Poster11 from '../img/PlacementPoster/poster11.png';
+import Poster12 from '../img/PlacementPoster/poster12.png';
+import Poster13 from '../img/PlacementPoster/poster13.png';
+import Poster14 from '../img/PlacementPoster/poster14.png';
+import Poster15 from '../img/PlacementPoster/poster15.jpg';
+import Poster16 from '../img/PlacementPoster/poster16.png';
+import Poster17 from '../img/PlacementPoster/poster17.png';
+
 
 import './Achievements.css';
 
@@ -37,9 +52,23 @@ class Carousel extends React.Component {
           navigation
           pagination={{ clickable: true }}
         >
-          <SwiperSlide><img src={Person1} class="d-block w-100" alt="Person 1" /></SwiperSlide>
-          <SwiperSlide><img src={Person2} class="d-block w-100" alt="Person 1" /></SwiperSlide>
-          <SwiperSlide><img src={Person3} class="d-block w-100" alt="Person 1" /></SwiperSlide>
+          <SwiperSlide><img src={Poster1} class="d-block w-100" alt="Poster 1" /></SwiperSlide>
+          <SwiperSlide><img src={Poster2} class="d-block w-100" alt="Poster 2" /></SwiperSlide>
+          <SwiperSlide><img src={Poster3} class="d-block w-100" alt="Poster 3" /></SwiperSlide>
+          <SwiperSlide><img src={Poster4} class="d-block w-100" alt="Poster 4" /></SwiperSlide>
+          <SwiperSlide><img src={Poster5} class="d-block w-100" alt="Poster 5" /></SwiperSlide>
+          <SwiperSlide><img src={Poster6} class="d-block w-100" alt="Poster 6" /></SwiperSlide>
+          <SwiperSlide><img src={Poster7} class="d-block w-100" alt="Poster 7" /></SwiperSlide>
+          <SwiperSlide><img src={Poster8} class="d-block w-100" alt="Poster 8" /></SwiperSlide>
+          <SwiperSlide><img src={Poster9} class="d-block w-100" alt="Poster 9" /></SwiperSlide>
+          <SwiperSlide><img src={Poster10} class="d-block w-100" alt="Poster 10" /></SwiperSlide>
+          <SwiperSlide><img src={Poster11} class="d-block w-100" alt="Poster 11" /></SwiperSlide>
+          <SwiperSlide><img src={Poster12} class="d-block w-100" alt="Poster 12" /></SwiperSlide>
+          <SwiperSlide><img src={Poster13} class="d-block w-100" alt="Poster 13" /></SwiperSlide>
+          <SwiperSlide><img src={Poster14} class="d-block w-100" alt="Poster 14" /></SwiperSlide>
+          <SwiperSlide><img src={Poster15} class="d-block w-100" alt="Poster 15" /></SwiperSlide>
+          <SwiperSlide><img src={Poster16} class="d-block w-100" alt="Poster 16" /></SwiperSlide>
+          <SwiperSlide><img src={Poster17} class="d-block w-100" alt="Poster 17" /></SwiperSlide>      
         </Swiper>
     </Col>
     );
