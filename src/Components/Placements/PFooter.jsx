@@ -1,6 +1,6 @@
 import React from 'react';
 import './PFooter.css'
-import TNPLogo from '../../img/tnplogo-text.png';
+import TNPLogo from '../../img/white logo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
