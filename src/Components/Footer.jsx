@@ -61,7 +61,7 @@ export default function Footer() {
             </div>
             <div className="ci-cell">
               <FontAwesomeIcon size="2x" color="#0d6efd" className="ci-icon" icon={faPhone} />
-              <div className="ci-cell-div"><a href="tel:123456789">+91 9876543210</a></div>
+              <div className="ci-cell-div"><a href="tel:7588428778">+91 7588428778</a></div>
             </div>
             <div className="ci-cell">
               <FontAwesomeIcon size="2x" color="#0d6efd" className="ci-icon" icon={faEnvelopeOpen} />
