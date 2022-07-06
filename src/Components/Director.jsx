@@ -14,7 +14,7 @@ import ARPatil from '../img/arpatil-sir.jpeg';
 export default function Director() {
   return (<>
     <Container className="dir" fluid>
-      <h3>Management's Message</h3>
+      <h3>Administration's Message</h3>
       <Row>
         <Col lg={4}>
           <Container className="dir-card">
