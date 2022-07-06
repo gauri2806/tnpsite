@@ -28,7 +28,7 @@ export default function Contact () {
             <div className="cm-inner">
               <h4>Dr. Ravindra Joshi</h4>
               <p className="subtext">Dean (Industry Liaison), In-charge Training & Placement Office</p>
-              <p><FontAwesomeIcon icon={faPhone} /> : <a href="tel:9876543210">+91 98765 43210</a></p>
+              <p><FontAwesomeIcon icon={faPhone} /> : <a href="tel:7588428778">+91 75884 28778</a></p>
               <p><FontAwesomeIcon icon={faEnvelope} /> : <a href="mailto:tpo@sggs.ac.in">tpo@sggs.ac.in</a>, <a href="mailto:rnjoshi@sggs.ac.in">rnjoshi@sggs.ac.in</a></p>
             </div>
           </Col>
